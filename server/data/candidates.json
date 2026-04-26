@@ -1,0 +1,152 @@
+[
+  {
+    "id": "cand-001",
+    "name": "Aarav Mehta",
+    "skills": ["React", "Node.js", "MongoDB", "AWS", "TypeScript", "Docker"],
+    "experience": 6,
+    "location": "Bengaluru, India",
+    "status": "open",
+    "salaryExpectationLpa": 28,
+    "noticePeriodDays": 30
+  },
+  {
+    "id": "cand-002",
+    "name": "Ishita Rao",
+    "skills": ["Next.js", "TypeScript", "GraphQL", "PostgreSQL", "Figma", "React"],
+    "experience": 5,
+    "location": "Hyderabad, India",
+    "status": "not open",
+    "salaryExpectationLpa": 24,
+    "noticePeriodDays": 60
+  },
+  {
+    "id": "cand-003",
+    "name": "Rohan Sen",
+    "skills": ["Angular", "Express", "MongoDB", "AWS", "JavaScript", "Jenkins"],
+    "experience": 4,
+    "location": "Pune, India",
+    "status": "open",
+    "salaryExpectationLpa": 18,
+    "noticePeriodDays": 45
+  },
+  {
+    "id": "cand-004",
+    "name": "Neha Kapoor",
+    "skills": ["React", "Next.js", "Node.js", "Redis", "TypeScript", "Terraform"],
+    "experience": 7,
+    "location": "Delhi, India",
+    "status": "open",
+    "salaryExpectationLpa": 32,
+    "noticePeriodDays": 30
+  },
+  {
+    "id": "cand-005",
+    "name": "Vikram Das",
+    "skills": ["Go", "Kubernetes", "Docker", "Terraform", "Prometheus", "AWS"],
+    "experience": 8,
+    "location": "Chennai, India",
+    "status": "open",
+    "salaryExpectationLpa": 35,
+    "noticePeriodDays": 90
+  },
+  {
+    "id": "cand-006",
+    "name": "Sana Qureshi",
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Firebase", "Node.js", "Vercel"],
+    "experience": 4,
+    "location": "Mumbai, India",
+    "status": "open",
+    "salaryExpectationLpa": 22,
+    "noticePeriodDays": 15
+  },
+  {
+    "id": "cand-007",
+    "name": "Kabir Nair",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "AWS", "Redis", "Docker"],
+    "experience": 5,
+    "location": "Kochi, India",
+    "status": "not open",
+    "salaryExpectationLpa": 20,
+    "noticePeriodDays": 60
+  },
+  {
+    "id": "cand-008",
+    "name": "Meera Joshi",
+    "skills": ["React", "Node.js", "TypeScript", "AWS", "Kafka", "CI/CD"],
+    "experience": 6,
+    "location": "Ahmedabad, India",
+    "status": "open",
+    "salaryExpectationLpa": 26,
+    "noticePeriodDays": 30
+  },
+  {
+    "id": "cand-009",
+    "name": "Dev Malhotra",
+    "skills": ["Java", "Spring Boot", "AWS", "MySQL", "Docker", "Microservices"],
+    "experience": 9,
+    "location": "Noida, India",
+    "status": "open",
+    "salaryExpectationLpa": 30,
+    "noticePeriodDays": 60
+  },
+  {
+    "id": "cand-010",
+    "name": "Ananya Pillai",
+    "skills": ["React Native", "TypeScript", "Azure", "Jest", "Node.js", "SQLite"],
+    "experience": 5,
+    "location": "Remote, India",
+    "status": "open",
+    "salaryExpectationLpa": 23,
+    "noticePeriodDays": 20
+  },
+  {
+    "id": "cand-011",
+    "name": "Pranav Kulkarni",
+    "skills": ["React", "Node.js", "PostgreSQL", "AWS", "TypeScript", "RabbitMQ"],
+    "experience": 6,
+    "location": "Nagpur, India",
+    "status": "open",
+    "salaryExpectationLpa": 27,
+    "noticePeriodDays": 30
+  },
+  {
+    "id": "cand-012",
+    "name": "Ritika Sharma",
+    "skills": ["Vue", "Nuxt.js", "TypeScript", "Firebase", "Tailwind CSS", "Figma"],
+    "experience": 4,
+    "location": "Jaipur, India",
+    "status": "open",
+    "salaryExpectationLpa": 19,
+    "noticePeriodDays": 15
+  },
+  {
+    "id": "cand-013",
+    "name": "Aditya Menon",
+    "skills": ["Python", "Django", "PostgreSQL", "AWS", "Docker", "REST APIs"],
+    "experience": 7,
+    "location": "Thiruvananthapuram, India",
+    "status": "not open",
+    "salaryExpectationLpa": 29,
+    "noticePeriodDays": 60
+  },
+  {
+    "id": "cand-014",
+    "name": "Simran Bedi",
+    "skills": ["React", "Node.js", "MongoDB", "GCP", "TypeScript", "Jest"],
+    "experience": 5,
+    "location": "Chandigarh, India",
+    "status": "open",
+    "salaryExpectationLpa": 25,
+    "noticePeriodDays": 30
+  },
+  {
+    "id": "cand-015",
+    "name": "Harsh Verma",
+    "skills": ["Scala", "Kafka", "Spark", "AWS", "Data Pipelines", "Airflow"],
+    "experience": 8,
+    "location": "Indore, India",
+    "status": "open",
+    "salaryExpectationLpa": 34,
+    "noticePeriodDays": 45
+  }
+]
