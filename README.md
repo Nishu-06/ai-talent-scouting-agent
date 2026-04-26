@@ -160,6 +160,26 @@ finalScore = 0.7 * matchScore + 0.3 * interestScore
 
 ## Architecture
 
+```mermaid
+flowchart LR
+    A["Recruiter enters JD"] --> B["Frontend: Home Page"]
+    B --> C["POST /api/jd/parse"]
+    C --> D["OpenAI Service or Fallback Parser"]
+    D --> E["Structured JD"]
+    E --> F["POST /api/match"]
+    F --> G["Matching Service"]
+    G --> H["Scoring Service"]
+    H --> I["Candidates Page"]
+    I --> J["POST /api/chat"]
+    J --> K["Chat Simulation Service"]
+    K --> L["Interest Score"]
+    L --> M["Final Ranking Engine"]
+    M --> N["GET /api/results"]
+    N --> O["Dashboard"]
+```
+
+This architecture separates the product into four clear stages: JD understanding, candidate matching, AI-based outreach simulation, and final ranking for recruiter decision-making.
+
 Detailed architecture notes are available in [docs/architecture.md](docs/architecture.md).
 
 High-level structure:
