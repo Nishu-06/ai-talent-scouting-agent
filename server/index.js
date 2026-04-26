@@ -10,7 +10,14 @@ const app = express();
 
 app.use(
   cors({
-    origin: env.clientUrl,
+    origin(origin, callback) {
+      if (!origin || env.clientUrls.includes(origin)) {
+        callback(null, true);
+        return;
+      }
+
+      callback(new Error("CORS not allowed for this origin."));
+    },
   }),
 );
 app.use(express.json());
