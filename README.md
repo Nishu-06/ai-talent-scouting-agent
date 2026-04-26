@@ -4,6 +4,24 @@ An AI-assisted recruiter copilot built for the **Deccan AI Catalyst Hackathon**.
 
 The goal is to help recruiters move from a raw JD to an actionable shortlist in minutes instead of spending hours manually screening profiles and chasing candidate intent.
 
+## Table of Contents
+
+- [Why This Project](#why-this-project)
+- [Core Capabilities](#core-capabilities)
+- [Product Workflow](#product-workflow)
+- [Tech Stack](#tech-stack)
+- [Key Features in Detail](#key-features-in-detail)
+- [Scoring Logic](#scoring-logic)
+- [Architecture](#architecture)
+- [Project Pages](#project-pages)
+- [API Reference](#api-reference)
+- [Local Setup](#local-setup)
+- [Demo Flow](#demo-flow)
+- [Sample Inputs and Outputs](#sample-inputs-and-outputs)
+- [Screenshots](#screenshots)
+- [Notes](#notes)
+- [License](#license)
+
 ## Why This Project
 
 Recruiters usually lose time in three places:
