@@ -90,7 +90,7 @@ function ChatPage() {
           <p className="text-sm uppercase tracking-[0.24em] text-brand">Step 3</p>
           <h2 className="mt-2 text-2xl font-semibold text-white">Simulated engagement and interest assessment</h2>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-300">
-            Recruiter outreach is simulated with three focused questions. The backend converts those responses into an Interest Score.
+            Recruiter outreach starts with three focused questions and then adds one adaptive AI follow-up based on the candidate profile and prior responses.
           </p>
         </div>
 

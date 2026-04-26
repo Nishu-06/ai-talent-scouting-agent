@@ -186,11 +186,30 @@ function buildFallbackAnswers(candidate, questions) {
   return questions.map((question) => fallbackCandidateReply(candidate, question));
 }
 
+function buildFallbackFollowUp(candidate) {
+  const primarySkill = candidate.skills?.[0] || "your core stack";
+  const secondarySkill = candidate.skills?.[1] || "delivery ownership";
+
+  const question = `You have worked with ${primarySkill} and ${secondarySkill}. Would you be comfortable taking ownership of a broader role if the opportunity is a strong fit?`;
+  const answer =
+    candidate.status === "open"
+      ? `Yes, I would be comfortable with that if the scope is clear and the role gives me room to grow.`
+      : `I would consider that if the team, impact, and long-term growth opportunity are compelling enough.`;
+
+  return { question, answer };
+}
+
 export async function generateCandidateAnswers(candidate, questions) {
   const fallbackAnswers = buildFallbackAnswers(candidate, questions);
+  const fallbackFollowUp = buildFallbackFollowUp(candidate);
 
   if (!openai) {
-    return { answers: fallbackAnswers, source: "fallback" };
+    return {
+      answers: fallbackAnswers,
+      followUpQuestion: fallbackFollowUp.question,
+      followUpAnswer: fallbackFollowUp.answer,
+      source: "fallback",
+    };
   }
 
   try {
@@ -215,20 +234,24 @@ Answer the following recruiter questions realistically and professionally:
 2. ${questions[1]}
 3. ${questions[2]}
 
+Then generate one smart recruiter follow-up question based on the candidate profile or previous answers, and answer it realistically as the candidate.
+
 Return responses in JSON format:
 {
   "answers": [
     "...",
     "...",
     "..."
-  ]
+  ],
+  "followUpQuestion": "...",
+  "followUpAnswer": "..."
 }`,
         },
       ],
       {
         type: "object",
         additionalProperties: false,
-        required: ["answers"],
+        required: ["answers", "followUpQuestion", "followUpAnswer"],
         properties: {
           answers: {
             type: "array",
@@ -236,6 +259,8 @@ Return responses in JSON format:
             maxItems: 3,
             items: { type: "string" },
           },
+          followUpQuestion: { type: "string" },
+          followUpAnswer: { type: "string" },
         },
       },
     );
@@ -244,9 +269,22 @@ Return responses in JSON format:
       Array.isArray(result.answers) && result.answers.length === questions.length
         ? result.answers
         : fallbackAnswers;
+    const followUpQuestion =
+      typeof result.followUpQuestion === "string" && result.followUpQuestion.trim()
+        ? result.followUpQuestion.trim()
+        : fallbackFollowUp.question;
+    const followUpAnswer =
+      typeof result.followUpAnswer === "string" && result.followUpAnswer.trim()
+        ? result.followUpAnswer.trim()
+        : fallbackFollowUp.answer;
 
-    return { answers, source: "openai" };
+    return { answers, followUpQuestion, followUpAnswer, source: "openai" };
   } catch (error) {
-    return { answers: fallbackAnswers, source: "fallback" };
+    return {
+      answers: fallbackAnswers,
+      followUpQuestion: fallbackFollowUp.question,
+      followUpAnswer: fallbackFollowUp.answer,
+      source: "fallback",
+    };
   }
 }

@@ -1,7 +1,1138 @@
 {
-  "jobDescription": "",
-  "parsedJd": null,
-  "matches": [],
-  "rankedCandidates": [],
-  "updatedAt": null
+  "jobDescription": "We are hiring a Senior Full Stack Engineer with strong experience in React, Node.js, MongoDB, AWS, and TypeScript. Candidates should have at least 4 years of experience and be comfortable working remotely with distributed teams across India.",
+  "parsedJd": {
+    "role": "Senior Full Stack Engineer",
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "AWS",
+      "TypeScript"
+    ],
+    "experience": {
+      "min": 4,
+      "max": 7
+    },
+    "location": "Remote (India)",
+    "source": "openai"
+  },
+  "matches": [
+    {
+      "id": "cand-001",
+      "name": "Aarav Mehta",
+      "skills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS",
+        "TypeScript",
+        "Docker"
+      ],
+      "experience": 6,
+      "location": "Bengaluru, India",
+      "status": "open",
+      "salaryExpectationLpa": 28,
+      "noticePeriodDays": 30,
+      "matchScore": 100,
+      "interestScore": 100,
+      "finalScore": 100,
+      "explanation": "Matched on React, Node.js, MongoDB, AWS, TypeScript. No major skill gaps. Experience is well aligned at 6 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS",
+        "TypeScript"
+      ],
+      "missingSkills": [],
+      "tag": "Perfect Fit",
+      "conversation": [
+        {
+          "sender": "recruiter",
+          "text": "Are you open to new opportunities?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Yes, I am open to new opportunities that align with my skills and career goals."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your expected salary?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Based on my experience and the current market standards, I am looking for a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and growth opportunities."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your notice period?"
+        },
+        {
+          "sender": "candidate",
+          "text": "My current notice period is two weeks, so I would be able to start relatively quickly after an offer is accepted."
+        },
+        {
+          "sender": "recruiter",
+          "text": "Can you describe a recent project where you utilized React and Node.js together, and what challenges you faced?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Certainly. In my most recent project, I developed a full-stack web application using React for the frontend and Node.js with Express for the backend. One of the main challenges was optimizing the API responses to reduce latency and improve user experience. I implemented efficient data fetching strategies and used MongoDB's aggregation framework to minimize the number of database calls. Additionally, I containerized the application using Docker and deployed it on AWS, which improved scalability and maintainability."
+        }
+      ],
+      "answers": [
+        "Yes, I am open to new opportunities that align with my skills and career goals.",
+        "Based on my experience and the current market standards, I am looking for a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and growth opportunities.",
+        "My current notice period is two weeks, so I would be able to start relatively quickly after an offer is accepted."
+      ],
+      "chatSource": "openai"
+    },
+    {
+      "id": "cand-008",
+      "name": "Meera Joshi",
+      "skills": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "AWS",
+        "Kafka",
+        "CI/CD"
+      ],
+      "experience": 6,
+      "location": "Ahmedabad, India",
+      "status": "open",
+      "salaryExpectationLpa": 26,
+      "noticePeriodDays": 30,
+      "matchScore": 86,
+      "interestScore": 100,
+      "finalScore": 90,
+      "explanation": "Matched on React, Node.js, AWS, TypeScript. Missing MongoDB. Experience is well aligned at 6 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "AWS",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB"
+      ],
+      "tag": "Perfect Fit",
+      "conversation": [
+        {
+          "sender": "recruiter",
+          "text": "Are you open to new opportunities?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Yes, I am open to new opportunities that allow me to grow my skills and contribute to impactful projects."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your expected salary?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Based on my experience and market research, I am expecting a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and role responsibilities."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your notice period?"
+        },
+        {
+          "sender": "candidate",
+          "text": "My current notice period is two weeks, so I would be able to start shortly after an offer is accepted."
+        },
+        {
+          "sender": "recruiter",
+          "text": "Can you describe a recent project where you utilized AWS and Kafka together, and what challenges you faced?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Certainly. In my last role, I worked on a real-time data processing system where we used Kafka for event streaming and AWS Lambda for serverless processing. One challenge was ensuring low latency while maintaining data integrity across distributed components. We addressed this by optimizing Kafka partitioning and implementing idempotent consumers in Lambda functions, which improved throughput and reliability."
+        }
+      ],
+      "answers": [
+        "Yes, I am open to new opportunities that allow me to grow my skills and contribute to impactful projects.",
+        "Based on my experience and market research, I am expecting a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and role responsibilities.",
+        "My current notice period is two weeks, so I would be able to start shortly after an offer is accepted."
+      ],
+      "chatSource": "openai"
+    },
+    {
+      "id": "cand-011",
+      "name": "Pranav Kulkarni",
+      "skills": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "TypeScript",
+        "RabbitMQ"
+      ],
+      "experience": 6,
+      "location": "Nagpur, India",
+      "status": "open",
+      "salaryExpectationLpa": 27,
+      "noticePeriodDays": 30,
+      "matchScore": 86,
+      "interestScore": 0,
+      "finalScore": 86,
+      "explanation": "Matched on React, Node.js, AWS, TypeScript. Missing MongoDB. Experience is well aligned at 6 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "AWS",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB"
+      ],
+      "tag": "Strong Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-014",
+      "name": "Simran Bedi",
+      "skills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "GCP",
+        "TypeScript",
+        "Jest"
+      ],
+      "experience": 5,
+      "location": "Chandigarh, India",
+      "status": "open",
+      "salaryExpectationLpa": 25,
+      "noticePeriodDays": 30,
+      "matchScore": 86,
+      "interestScore": 0,
+      "finalScore": 86,
+      "explanation": "Matched on React, Node.js, MongoDB, TypeScript. Missing AWS. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "AWS"
+      ],
+      "tag": "Strong Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-004",
+      "name": "Neha Kapoor",
+      "skills": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Redis",
+        "TypeScript",
+        "Terraform"
+      ],
+      "experience": 7,
+      "location": "Delhi, India",
+      "status": "open",
+      "salaryExpectationLpa": 32,
+      "noticePeriodDays": 30,
+      "matchScore": 72,
+      "interestScore": 0,
+      "finalScore": 72,
+      "explanation": "Matched on React, Node.js, TypeScript. Missing MongoDB, AWS. Experience is well aligned at 7 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Promising Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-006",
+      "name": "Sana Qureshi",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Firebase",
+        "Node.js",
+        "Vercel"
+      ],
+      "experience": 4,
+      "location": "Mumbai, India",
+      "status": "open",
+      "salaryExpectationLpa": 22,
+      "noticePeriodDays": 15,
+      "matchScore": 72,
+      "interestScore": 0,
+      "finalScore": 72,
+      "explanation": "Matched on React, Node.js, TypeScript. Missing MongoDB, AWS. Experience is well aligned at 4 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Promising Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-002",
+      "name": "Ishita Rao",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "GraphQL",
+        "PostgreSQL",
+        "Figma",
+        "React"
+      ],
+      "experience": 5,
+      "location": "Hyderabad, India",
+      "status": "not open",
+      "salaryExpectationLpa": 24,
+      "noticePeriodDays": 60,
+      "matchScore": 58,
+      "interestScore": 0,
+      "finalScore": 58,
+      "explanation": "Matched on React, TypeScript. Missing Node.js, MongoDB, AWS. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "React",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-003",
+      "name": "Rohan Sen",
+      "skills": [
+        "Angular",
+        "Express",
+        "MongoDB",
+        "AWS",
+        "JavaScript",
+        "Jenkins"
+      ],
+      "experience": 4,
+      "location": "Pune, India",
+      "status": "open",
+      "salaryExpectationLpa": 18,
+      "noticePeriodDays": 45,
+      "matchScore": 58,
+      "interestScore": 0,
+      "finalScore": 58,
+      "explanation": "Matched on MongoDB, AWS. Missing React, Node.js, TypeScript. Experience is well aligned at 4 years.",
+      "matchedSkills": [
+        "MongoDB",
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-010",
+      "name": "Ananya Pillai",
+      "skills": [
+        "React Native",
+        "TypeScript",
+        "Azure",
+        "Jest",
+        "Node.js",
+        "SQLite"
+      ],
+      "experience": 5,
+      "location": "Remote, India",
+      "status": "open",
+      "salaryExpectationLpa": 23,
+      "noticePeriodDays": 20,
+      "matchScore": 58,
+      "interestScore": 0,
+      "finalScore": 58,
+      "explanation": "Matched on Node.js, TypeScript. Missing React, MongoDB, AWS. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "Node.js",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "React",
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-007",
+      "name": "Kabir Nair",
+      "skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "AWS",
+        "Redis",
+        "Docker"
+      ],
+      "experience": 5,
+      "location": "Kochi, India",
+      "status": "not open",
+      "salaryExpectationLpa": 20,
+      "noticePeriodDays": 60,
+      "matchScore": 44,
+      "interestScore": 0,
+      "finalScore": 44,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-012",
+      "name": "Ritika Sharma",
+      "skills": [
+        "Vue",
+        "Nuxt.js",
+        "TypeScript",
+        "Firebase",
+        "Tailwind CSS",
+        "Figma"
+      ],
+      "experience": 4,
+      "location": "Jaipur, India",
+      "status": "open",
+      "salaryExpectationLpa": 19,
+      "noticePeriodDays": 15,
+      "matchScore": 44,
+      "interestScore": 0,
+      "finalScore": 44,
+      "explanation": "Matched on TypeScript. Missing React, Node.js, MongoDB, AWS. Experience is well aligned at 4 years.",
+      "matchedSkills": [
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-013",
+      "name": "Aditya Menon",
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "REST APIs"
+      ],
+      "experience": 7,
+      "location": "Thiruvananthapuram, India",
+      "status": "not open",
+      "salaryExpectationLpa": 29,
+      "noticePeriodDays": 60,
+      "matchScore": 44,
+      "interestScore": 0,
+      "finalScore": 44,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 7 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-005",
+      "name": "Vikram Das",
+      "skills": [
+        "Go",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Prometheus",
+        "AWS"
+      ],
+      "experience": 8,
+      "location": "Chennai, India",
+      "status": "open",
+      "salaryExpectationLpa": 35,
+      "noticePeriodDays": 90,
+      "matchScore": 40,
+      "interestScore": 0,
+      "finalScore": 40,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 8 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-015",
+      "name": "Harsh Verma",
+      "skills": [
+        "Scala",
+        "Kafka",
+        "Spark",
+        "AWS",
+        "Data Pipelines",
+        "Airflow"
+      ],
+      "experience": 8,
+      "location": "Indore, India",
+      "status": "open",
+      "salaryExpectationLpa": 34,
+      "noticePeriodDays": 45,
+      "matchScore": 40,
+      "interestScore": 0,
+      "finalScore": 40,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 8 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-009",
+      "name": "Dev Malhotra",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "AWS",
+        "MySQL",
+        "Docker",
+        "Microservices"
+      ],
+      "experience": 9,
+      "location": "Noida, India",
+      "status": "open",
+      "salaryExpectationLpa": 30,
+      "noticePeriodDays": 60,
+      "matchScore": 38,
+      "interestScore": 0,
+      "finalScore": 38,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is somewhat off at 9 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    }
+  ],
+  "rankedCandidates": [
+    {
+      "id": "cand-001",
+      "name": "Aarav Mehta",
+      "skills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS",
+        "TypeScript",
+        "Docker"
+      ],
+      "experience": 6,
+      "location": "Bengaluru, India",
+      "status": "open",
+      "salaryExpectationLpa": 28,
+      "noticePeriodDays": 30,
+      "matchScore": 100,
+      "interestScore": 100,
+      "finalScore": 100,
+      "explanation": "Matched on React, Node.js, MongoDB, AWS, TypeScript. No major skill gaps. Experience is well aligned at 6 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS",
+        "TypeScript"
+      ],
+      "missingSkills": [],
+      "tag": "Perfect Fit",
+      "conversation": [
+        {
+          "sender": "recruiter",
+          "text": "Are you open to new opportunities?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Yes, I am open to new opportunities that align with my skills and career goals."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your expected salary?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Based on my experience and the current market standards, I am looking for a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and growth opportunities."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your notice period?"
+        },
+        {
+          "sender": "candidate",
+          "text": "My current notice period is two weeks, so I would be able to start relatively quickly after an offer is accepted."
+        },
+        {
+          "sender": "recruiter",
+          "text": "Can you describe a recent project where you utilized React and Node.js together, and what challenges you faced?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Certainly. In my most recent project, I developed a full-stack web application using React for the frontend and Node.js with Express for the backend. One of the main challenges was optimizing the API responses to reduce latency and improve user experience. I implemented efficient data fetching strategies and used MongoDB's aggregation framework to minimize the number of database calls. Additionally, I containerized the application using Docker and deployed it on AWS, which improved scalability and maintainability."
+        }
+      ],
+      "answers": [
+        "Yes, I am open to new opportunities that align with my skills and career goals.",
+        "Based on my experience and the current market standards, I am looking for a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and growth opportunities.",
+        "My current notice period is two weeks, so I would be able to start relatively quickly after an offer is accepted."
+      ],
+      "chatSource": "openai"
+    },
+    {
+      "id": "cand-008",
+      "name": "Meera Joshi",
+      "skills": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "AWS",
+        "Kafka",
+        "CI/CD"
+      ],
+      "experience": 6,
+      "location": "Ahmedabad, India",
+      "status": "open",
+      "salaryExpectationLpa": 26,
+      "noticePeriodDays": 30,
+      "matchScore": 86,
+      "interestScore": 100,
+      "finalScore": 90,
+      "explanation": "Matched on React, Node.js, AWS, TypeScript. Missing MongoDB. Experience is well aligned at 6 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "AWS",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB"
+      ],
+      "tag": "Perfect Fit",
+      "conversation": [
+        {
+          "sender": "recruiter",
+          "text": "Are you open to new opportunities?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Yes, I am open to new opportunities that allow me to grow my skills and contribute to impactful projects."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your expected salary?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Based on my experience and market research, I am expecting a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and role responsibilities."
+        },
+        {
+          "sender": "recruiter",
+          "text": "What is your notice period?"
+        },
+        {
+          "sender": "candidate",
+          "text": "My current notice period is two weeks, so I would be able to start shortly after an offer is accepted."
+        },
+        {
+          "sender": "recruiter",
+          "text": "Can you describe a recent project where you utilized AWS and Kafka together, and what challenges you faced?"
+        },
+        {
+          "sender": "candidate",
+          "text": "Certainly. In my last role, I worked on a real-time data processing system where we used Kafka for event streaming and AWS Lambda for serverless processing. One challenge was ensuring low latency while maintaining data integrity across distributed components. We addressed this by optimizing Kafka partitioning and implementing idempotent consumers in Lambda functions, which improved throughput and reliability."
+        }
+      ],
+      "answers": [
+        "Yes, I am open to new opportunities that allow me to grow my skills and contribute to impactful projects.",
+        "Based on my experience and market research, I am expecting a salary in the range of $110,000 to $130,000 annually, but I am open to discussing this further depending on the overall compensation package and role responsibilities.",
+        "My current notice period is two weeks, so I would be able to start shortly after an offer is accepted."
+      ],
+      "chatSource": "openai"
+    },
+    {
+      "id": "cand-011",
+      "name": "Pranav Kulkarni",
+      "skills": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "TypeScript",
+        "RabbitMQ"
+      ],
+      "experience": 6,
+      "location": "Nagpur, India",
+      "status": "open",
+      "salaryExpectationLpa": 27,
+      "noticePeriodDays": 30,
+      "matchScore": 86,
+      "interestScore": 0,
+      "finalScore": 86,
+      "explanation": "Matched on React, Node.js, AWS, TypeScript. Missing MongoDB. Experience is well aligned at 6 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "AWS",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB"
+      ],
+      "tag": "Strong Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-014",
+      "name": "Simran Bedi",
+      "skills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "GCP",
+        "TypeScript",
+        "Jest"
+      ],
+      "experience": 5,
+      "location": "Chandigarh, India",
+      "status": "open",
+      "salaryExpectationLpa": 25,
+      "noticePeriodDays": 30,
+      "matchScore": 86,
+      "interestScore": 0,
+      "finalScore": 86,
+      "explanation": "Matched on React, Node.js, MongoDB, TypeScript. Missing AWS. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "AWS"
+      ],
+      "tag": "Strong Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-004",
+      "name": "Neha Kapoor",
+      "skills": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Redis",
+        "TypeScript",
+        "Terraform"
+      ],
+      "experience": 7,
+      "location": "Delhi, India",
+      "status": "open",
+      "salaryExpectationLpa": 32,
+      "noticePeriodDays": 30,
+      "matchScore": 72,
+      "interestScore": 0,
+      "finalScore": 72,
+      "explanation": "Matched on React, Node.js, TypeScript. Missing MongoDB, AWS. Experience is well aligned at 7 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Promising Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-006",
+      "name": "Sana Qureshi",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Firebase",
+        "Node.js",
+        "Vercel"
+      ],
+      "experience": 4,
+      "location": "Mumbai, India",
+      "status": "open",
+      "salaryExpectationLpa": 22,
+      "noticePeriodDays": 15,
+      "matchScore": 72,
+      "interestScore": 0,
+      "finalScore": 72,
+      "explanation": "Matched on React, Node.js, TypeScript. Missing MongoDB, AWS. Experience is well aligned at 4 years.",
+      "matchedSkills": [
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Promising Match",
+      "conversation": []
+    },
+    {
+      "id": "cand-002",
+      "name": "Ishita Rao",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "GraphQL",
+        "PostgreSQL",
+        "Figma",
+        "React"
+      ],
+      "experience": 5,
+      "location": "Hyderabad, India",
+      "status": "not open",
+      "salaryExpectationLpa": 24,
+      "noticePeriodDays": 60,
+      "matchScore": 58,
+      "interestScore": 0,
+      "finalScore": 58,
+      "explanation": "Matched on React, TypeScript. Missing Node.js, MongoDB, AWS. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "React",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-003",
+      "name": "Rohan Sen",
+      "skills": [
+        "Angular",
+        "Express",
+        "MongoDB",
+        "AWS",
+        "JavaScript",
+        "Jenkins"
+      ],
+      "experience": 4,
+      "location": "Pune, India",
+      "status": "open",
+      "salaryExpectationLpa": 18,
+      "noticePeriodDays": 45,
+      "matchScore": 58,
+      "interestScore": 0,
+      "finalScore": 58,
+      "explanation": "Matched on MongoDB, AWS. Missing React, Node.js, TypeScript. Experience is well aligned at 4 years.",
+      "matchedSkills": [
+        "MongoDB",
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-010",
+      "name": "Ananya Pillai",
+      "skills": [
+        "React Native",
+        "TypeScript",
+        "Azure",
+        "Jest",
+        "Node.js",
+        "SQLite"
+      ],
+      "experience": 5,
+      "location": "Remote, India",
+      "status": "open",
+      "salaryExpectationLpa": 23,
+      "noticePeriodDays": 20,
+      "matchScore": 58,
+      "interestScore": 0,
+      "finalScore": 58,
+      "explanation": "Matched on Node.js, TypeScript. Missing React, MongoDB, AWS. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "Node.js",
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "React",
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-007",
+      "name": "Kabir Nair",
+      "skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "AWS",
+        "Redis",
+        "Docker"
+      ],
+      "experience": 5,
+      "location": "Kochi, India",
+      "status": "not open",
+      "salaryExpectationLpa": 20,
+      "noticePeriodDays": 60,
+      "matchScore": 44,
+      "interestScore": 0,
+      "finalScore": 44,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 5 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-012",
+      "name": "Ritika Sharma",
+      "skills": [
+        "Vue",
+        "Nuxt.js",
+        "TypeScript",
+        "Firebase",
+        "Tailwind CSS",
+        "Figma"
+      ],
+      "experience": 4,
+      "location": "Jaipur, India",
+      "status": "open",
+      "salaryExpectationLpa": 19,
+      "noticePeriodDays": 15,
+      "matchScore": 44,
+      "interestScore": 0,
+      "finalScore": 44,
+      "explanation": "Matched on TypeScript. Missing React, Node.js, MongoDB, AWS. Experience is well aligned at 4 years.",
+      "matchedSkills": [
+        "TypeScript"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-013",
+      "name": "Aditya Menon",
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "REST APIs"
+      ],
+      "experience": 7,
+      "location": "Thiruvananthapuram, India",
+      "status": "not open",
+      "salaryExpectationLpa": 29,
+      "noticePeriodDays": 60,
+      "matchScore": 44,
+      "interestScore": 0,
+      "finalScore": 44,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 7 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-005",
+      "name": "Vikram Das",
+      "skills": [
+        "Go",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Prometheus",
+        "AWS"
+      ],
+      "experience": 8,
+      "location": "Chennai, India",
+      "status": "open",
+      "salaryExpectationLpa": 35,
+      "noticePeriodDays": 90,
+      "matchScore": 40,
+      "interestScore": 0,
+      "finalScore": 40,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 8 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-015",
+      "name": "Harsh Verma",
+      "skills": [
+        "Scala",
+        "Kafka",
+        "Spark",
+        "AWS",
+        "Data Pipelines",
+        "Airflow"
+      ],
+      "experience": 8,
+      "location": "Indore, India",
+      "status": "open",
+      "salaryExpectationLpa": 34,
+      "noticePeriodDays": 45,
+      "matchScore": 40,
+      "interestScore": 0,
+      "finalScore": 40,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is well aligned at 8 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    },
+    {
+      "id": "cand-009",
+      "name": "Dev Malhotra",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "AWS",
+        "MySQL",
+        "Docker",
+        "Microservices"
+      ],
+      "experience": 9,
+      "location": "Noida, India",
+      "status": "open",
+      "salaryExpectationLpa": 30,
+      "noticePeriodDays": 60,
+      "matchScore": 38,
+      "interestScore": 0,
+      "finalScore": 38,
+      "explanation": "Matched on AWS. Missing React, Node.js, MongoDB, TypeScript. Experience is somewhat off at 9 years.",
+      "matchedSkills": [
+        "AWS"
+      ],
+      "missingSkills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "tag": "Needs Review",
+      "conversation": []
+    }
+  ],
+  "updatedAt": "2026-04-26T09:42:10.867Z"
 }

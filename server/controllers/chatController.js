@@ -32,6 +32,13 @@ export async function chatController(req, res) {
     { sender: "recruiter", text: question },
     { sender: "candidate", text: simulation.answers[index] || "" },
   ]);
+
+  if (simulation.followUpQuestion && simulation.followUpAnswer) {
+    conversation.push(
+      { sender: "recruiter", text: simulation.followUpQuestion },
+      { sender: "candidate", text: simulation.followUpAnswer },
+    );
+  }
   const interestScore = calculateInterestScoreFromAnswers(simulation.answers);
   const finalScore = calculateFinalScore(candidate.matchScore, interestScore);
 
@@ -60,6 +67,8 @@ export async function chatController(req, res) {
   return res.json({
     candidateId: candidate.id,
     answers: simulation.answers,
+    followUpQuestion: simulation.followUpQuestion,
+    followUpAnswer: simulation.followUpAnswer,
     conversation,
     interestScore,
     finalScore,
