@@ -395,12 +395,32 @@ See [docs/sample-io.md](docs/sample-io.md) for sample job descriptions and ranke
 
 ## Screenshots
 
-Add these before final submission:
-
-- Home page
-- Candidate matching page
-- Chat simulation page
-- Dashboard page
+<table>
+  <tr>
+    <td align="center"><strong>Home Page</strong></td>
+    <td align="center"><strong>Candidate Matching</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/home.png" alt="Home Page" width="100%"></td>
+    <td><img src="docs/screenshots/candidates.png" alt="Candidate Matching" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Chat Simulation 1</strong></td>
+    <td align="center"><strong>Chat Simulation 2</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/simulation1.png" alt="Chat Simulation 1" width="100%"></td>
+    <td><img src="docs/screenshots/simulation2.png" alt="Chat Simulation 2" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Dashboard Overview</strong></td>
+    <td align="center"><strong>Dashboard Details</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/dashboard1.png" alt="Dashboard Overview" width="100%"></td>
+    <td><img src="docs/screenshots/dashboard2.png" alt="Dashboard Details" width="100%"></td>
+  </tr>
+</table>
 
 ## Notes
 
