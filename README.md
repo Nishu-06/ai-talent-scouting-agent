@@ -402,31 +402,6 @@ Add these before final submission:
 - Chat simulation page
 - Dashboard page
 
-## Deployment
-
-You can deploy this project using:
-
-- Vercel or Netlify for the frontend
-- Render, Railway, or a Node-capable host for the backend
-
-If a live deployment is not available at submission time, the project includes clear local setup instructions for evaluation.
-
-## Submission Checklist
-
-- Working prototype
-- Public GitHub repository
-- Professional README
-- Architecture diagram
-- Sample input/output documentation
-- Demo video link
-- Project site URL or local setup instructions
-
-## Repository Access
-
-Before submission, share repository access with:
-
-- [hackathon-deccan-ai](https://github.com/hackathon-deccan-ai)
-
 ## Notes
 
 - The candidate dataset is seeded and intentionally varied for demo purposes.
